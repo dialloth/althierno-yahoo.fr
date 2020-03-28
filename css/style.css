@@ -1,0 +1,104 @@
+
+body {
+	font-family: Berlin sans FB;
+}
+h1 {
+	color: red;
+	border: 20px solid chartreuse;
+}
+ li {
+	font-size: 15px;
+}
+img {
+	width: 170px;
+	height: 170px;
+
+}
+table tr td {
+	border: 2px solid black;
+}
+.tab {
+	text-align: center;
+}
+/*p {
+	border: 2px solid red;
+	margin-left: 50px;
+}*/
+.padding20 {
+	padding-left: 20px;
+}
+.marginLeft {
+	margin-left: 50px;
+}
+.bacK {
+  background-color: blue;
+  color: white;
+  border:2px solid chartreuse;
+}
+.secon {
+	background-color: red;
+	color: white;
+	border:2px solid chartreuse;
+}
+.paddingGlobal {
+	padding: 20px;
+}
+.marginto {
+	margin-top: 10px;
+}
+.floatLeft {
+	float: left;
+}
+.floatRigth {
+	float: right;
+}
+.Width50{
+	width: 20%;
+}
+.clear {
+	clear:both;
+}
+.position {
+	position: absolute;
+/*	position :sticky, relative et absolute*/
+	top:0;
+	left: 500px;
+	border: 2px solid black;
+}
+.elem1 {
+  background-color: red;
+  text-align: center;
+}
+.elem2 {
+	background-color: blue;
+	text-align: center;
+}
+
+.elem3 {
+	background-color: chartreuse;
+	text-align: center;
+
+}
+.elem4 {
+	background-color: violet;
+	text-align: center;
+
+}
+.box {
+	display: flex;
+	flex-flow: row wrap;
+}
+.itemSize {
+	width: 50%;
+}
+.itemSize1 {
+	width: 10%;
+}
+.itemSize2 {
+	width: auto;
+}
+.itemSize1::first-letter {
+	background-color: orange;
+	font-size: 20px;
+	color:white;
+}
